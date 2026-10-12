@@ -598,7 +598,7 @@ requires-dist = [
     { name = "isort", marker = "extra == 'dev'", specifier = ">=5.12.0" },
     { name = "keyring", specifier = ">=24.0.0" },
     { name = "mcp", extras = ["cli"], specifier = ">=1.10.0" },
-    { name = "monarchmoneycommunity", specifier = ">=1.5.2" },
+    { name = "monarchmoneycommunity", specifier = ">=1.6.0" },
     { name = "mypy", marker = "extra == 'dev'", specifier = ">=1.0.0" },
     { name = "pre-commit", marker = "extra == 'dev'", specifier = ">=3.0.0" },
     { name = "pydantic", specifier = ">=2.0.0" },
@@ -610,16 +610,16 @@ provides-extras = ["dev"]
 
 [[package]]
 name = "monarchmoneycommunity"
-version = "1.5.2"
+version = "1.6.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "aiohttp" },
     { name = "gql" },
     { name = "oathtool" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/ee/ba/d07d7ced03026a01b5f1f729a116c929ea9a867faf4a79ef8a245858ddfd/monarchmoneycommunity-1.5.2.tar.gz", hash = "sha256:bdd8e03e619c547dccb282f64865ece6202992cacd290013dd1ff061b0d6bb30", size = 36934, upload-time = "2026-08-02T15:40:16.412Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/08/38/405cf4ec61093a682dca9c36014e09d6c4c5a968ee045c3e59a192e5c58c/monarchmoneycommunity-1.6.0.tar.gz", hash = "sha256:86cf0abcda704b3182f8c0d1265897d92d3712da624e05a2eb5ff8b0ba1dac16", size = 49232, upload-time = "2026-09-20T16:02:59.101Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/ef/82/b872d537af119ca8c3585d2e8f335f07754b86749cf7a69a1466390276a1/monarchmoneycommunity-1.5.2-py3-none-any.whl", hash = "sha256:1cce7e158546b69726a783371f71417d73802bd9104673312f251831f97b2301", size = 30783, upload-time = "2026-08-02T15:40:15.281Z" },
+    { url = "https://files.pythonhosted.org/packages/05/31/9e76872f77e082c910558348e6d73c986f8734f23b383c53cb0f5418eac2/monarchmoneycommunity-1.6.0-py3-none-any.whl", hash = "sha256:30348847a72378453a65dad0e504a77defec99812832d7bd4f693363915c29b3", size = 33390, upload-time = "2026-09-20T16:02:57.807Z" },
 ]
 
 [[package]]
